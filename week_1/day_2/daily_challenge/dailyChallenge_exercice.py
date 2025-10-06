@@ -11,16 +11,3 @@ for i in range(1, length + 1):
 
 print("Output:", multiples)
 
-
-print("\nChallenge 2: Remove Consecutive Duplicate Letters")
-
-# Ask user for a string
-word = input("Enter a word: ")
-
-# Remove consecutive duplicates
-result = ""
-for i in range(len(word)):
-    if i == 0 or word[i] != word[i - 1]:
-        result += word[i]
-
-print("Output:", result)
