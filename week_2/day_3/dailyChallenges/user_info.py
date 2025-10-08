@@ -1,4 +1,3 @@
-# Daily Challenge GOLD - User Info
 
 user_data = []
 

@@ -58,13 +58,13 @@ import re
 def validate_name(name):
     pattern = r'^[A-Z][a-zA-Z]+ [A-Z][a-zA-Z]+$'
     if re.match(pattern, name):
-        print("✅ Valid name!")
+        print(" Valid name!")
     else:
-        print("❌ Invalid name. Make sure to use only letters and one space, both names capitalized.")
+        print(" Invalid name. Make sure to use only letters and one space, both names capitalized.")
 
-# Example
-validate_name("John Doe")  # ✅
-validate_name("john doe")  # ❌
+
+validate_name("John Doe")  
+validate_name("john doe")  
 
 
 #Exercise 5 : Python Password Generato
