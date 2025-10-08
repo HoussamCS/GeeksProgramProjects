@@ -85,6 +85,5 @@ def simulate_evolution(population_size=10, environment_factor=0.8, max_generatio
     return None
 
 
-# --- Run simulation ---
 if __name__ == "__main__":
     simulate_evolution(population_size=10, environment_factor=0.9, max_generations=200)
